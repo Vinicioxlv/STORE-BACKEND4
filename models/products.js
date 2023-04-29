@@ -22,7 +22,7 @@ const productSchema = new Schema({
   timestamps: true
 })
 
-const productModel = model('productos', productSchema);
+const productModel = model('products', productSchema);
 
 module.exports = productModel
 
