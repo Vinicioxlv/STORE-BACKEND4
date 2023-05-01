@@ -16,7 +16,7 @@ router.get('/me', async (req, res) => {
   }
 
   res.send({
-    username: sessionUser.username,
+    name: sessionUser.name,
     email: sessionUser.email
   })
 })
